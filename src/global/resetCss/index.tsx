@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-import { medias, sizes, weights } from "../themes";
+import { medias, sizes, weights, colors } from "../themes";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -39,30 +39,26 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: flex-start;
     flex-direction: column;
     width: 100vw;
+    background-color:  ${colors.primary};
   }
 
-  h1 {
-    font-size: ${sizes.xXlarge};
-    font-weight: ${weights.black};
-  }
-
-  h2, button {
+  input {
     font-size: ${sizes.large};
-    font-weight: ${weights.bold};
+    font-weight: ${weights.regular};
   }
 
-  a, h3 {
+  a {
     font-size: ${sizes.medium};
     font-weight: ${weights.bold};
   }
 
-  h4, p, li, ul, span, input, label, select {
+  button, p, label {
     font-size: ${sizes.default};
     font-weight: ${weights.regular};
   }
 
-  h5 {
+  h4 {
     font-size: ${sizes.small};
-    font-weight: ${weights.light};
+    font-weight: ${weights.bold};
   }
 `;

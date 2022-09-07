@@ -10,11 +10,11 @@ const Router = () => (
     <Routes>
       {routes.map(({ component: Component, ...route }) => (
         <Route
-          key={route.path}
-          path={route.path}
+          key={route.href}
+          path={route.href}
           element={
             <Layout>
-              <Component disabled />
+              <Component />
             </Layout>
           }
         />

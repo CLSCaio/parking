@@ -1,13 +1,17 @@
 import React from "react";
 
+import { MenuProvider } from "./context";
+
 import { Provider } from "./global";
 
 import Router from "./routes";
 
 const App = () => (
-  <Provider>
-    <Router />
-  </Provider>
+  <MenuProvider>
+    <Provider>
+      <Router />
+    </Provider>
+  </MenuProvider>
 );
 
 export default App;

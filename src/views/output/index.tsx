@@ -1,3 +1,3 @@
 import React from "react";
 
-export const Output = () => <h1>saida</h1>;
+export const Output = () => <h1>Saída</h1>;

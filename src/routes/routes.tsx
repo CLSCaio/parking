@@ -1,14 +1,24 @@
-import { Entry, Output } from "../views";
+import { Home, Entry, Output } from "../views";
+
+import { Routes } from "../global";
 
 export default [
   {
-    path: "/entrada",
-    component: Entry,
+    href: "/",
+    component: Home,
     public: true,
+    label: "Home",
   },
   {
-    path: "/saida",
+    href: "/entry",
+    component: Entry,
+    public: true,
+    label: "Entrada",
+  },
+  {
+    href: "/output",
     component: Output,
     public: true,
+    label: "Saída",
   },
-];
+] as Routes[];
