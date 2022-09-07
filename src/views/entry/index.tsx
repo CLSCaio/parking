@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { useFormik, FormikProvider } from "formik";
 
 import { entryPlate } from "../../api";
-import { Input } from "../../components";
+import { Form, Input, Button } from "../../components";
 
 import validationSchema from "./validation";
-import { Form, Button } from "./styles";
 
 export const Entry = () => {
   const [loading, setLoading] = useState(false);
@@ -38,13 +36,9 @@ export const Entry = () => {
         <Input name="entry" label="Número da placa:" placeholder="AAA-0000" />
 
         <Button
-          disabled={
-            !(form.isValid && form.dirty) || form.isSubmitting || loading
-          }
-          type="submit"
-        >
-          Confirmar entrada
-        </Button>
+          label="confirmar entrada"
+          disabled={!(form.isValid && form.dirty) || form.isSubmitting}
+        />
       </Form>
     </FormikProvider>
   );

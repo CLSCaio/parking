@@ -57,7 +57,7 @@
     "no-nested-ternary": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "no-param-reassign": "off",
-    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "off",
     "react/no-danger": "off",

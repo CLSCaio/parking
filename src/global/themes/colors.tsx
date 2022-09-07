@@ -17,5 +17,6 @@ export const colors = {
 
   others: {
     1: "#FFFBE6",
+    2: "#A769B2",
   },
 };

@@ -6,9 +6,15 @@ import { ErrorMessage } from "../errorMessage";
 import { InputProps } from "./interface";
 import { Group, Label, Field } from "./styles";
 
-export const Input = ({ color, label, placeholder, ...rest }: InputProps) => {
+export const Input = ({
+  color,
+  label,
+  placeholder,
+  error,
+  ...rest
+}: InputProps) => {
   const [field, meta] = useField(rest);
-  const [error, setError] = useState(false);
+  const [err, setErr] = useState(false);
   const [errorStyle, setErrorStyle] = useState<"error" | undefined>(undefined);
 
   const handleBlur: FocusEventHandler<HTMLInputElement> = (event) => {
@@ -16,13 +22,13 @@ export const Input = ({ color, label, placeholder, ...rest }: InputProps) => {
   };
 
   useEffect(() => {
-    if (meta.touched && meta.error) {
-      setError(true);
+    if ((meta.touched && meta.error) || error) {
+      setErr(true);
       setErrorStyle("error");
     }
 
-    if (!meta.error) {
-      setError(false);
+    if (!meta.error || !error) {
+      setErr(false);
       setErrorStyle(undefined);
     }
   }, [meta.touched && meta.error]);
@@ -38,7 +44,7 @@ export const Input = ({ color, label, placeholder, ...rest }: InputProps) => {
         placeholder={placeholder}
         onBlur={handleBlur}
       />
-      {error && <ErrorMessage error={meta.error || "Occorreu um erro"} />}
+      {err && <ErrorMessage error={error || meta.error} />}
     </Group>
   );
 };

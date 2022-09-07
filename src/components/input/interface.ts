@@ -3,6 +3,7 @@ export interface InputProps {
   label: string;
   placeholder?: string;
   name: string;
+  error?: string;
 }
 
 export interface InputStyles {

@@ -24,6 +24,8 @@ export const Group = styled.span<homeStyles>`
 
   padding: ${({ customGroup }) => (customGroup ? "38px 16px 64px 16px" : 0)};
 
+  height: ${({ customGroup }) => (customGroup ? "auto" : "max-content")};
+
   .open {
     background-color: ${colors.white};
     color: ${colors.secundary};
