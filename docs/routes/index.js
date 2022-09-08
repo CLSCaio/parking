@@ -20,3 +20,4 @@ const Router = () => (React.createElement(BrowserRouter, null,
                 React.createElement(Component, null)) }));
     }))));
 export default Router;
+//# sourceMappingURL=index.js.map

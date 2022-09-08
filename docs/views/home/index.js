@@ -10,3 +10,4 @@ export const Home = () => {
             React.createElement(Button, { type: "button", id: "b-output", onClick: (e) => changeView("output", e) }, "Sa\u00EDda")),
         React.createElement(Group, { customGroup: true }, route === "entry" ? React.createElement(Entry, null) : React.createElement(Output, null))));
 };
+//# sourceMappingURL=index.js.map

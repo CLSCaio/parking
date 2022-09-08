@@ -7,3 +7,4 @@ import { Container } from "./styles.js";
 export const Loading = ({ isLoading, text, type }) => (React.createElement(Container, null,
     isLoading ? (React.createElement(Spinner, null)) : type === "sucess" ? (React.createElement(AiOutlineCheckCircle, { size: 61, color: colors.secundary })) : (React.createElement(MdErrorOutline, { size: 61, color: colors.error })),
     React.createElement("h4", null, text)));
+//# sourceMappingURL=index.js.map

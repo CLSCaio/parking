@@ -6,3 +6,4 @@ const App = () => (React.createElement(MenuProvider, null,
     React.createElement(Provider, null,
         React.createElement(Router, null))));
 export default App;
+//# sourceMappingURL=App.js.map

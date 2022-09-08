@@ -12,3 +12,4 @@ const BoxHistory = ({ list }) => (React.createElement(Container, null, list === 
         React.createElement("h6", null, " pagamento "),
         React.createElement("h2", null, paid ? "Pago" : React.createElement("hr", null))))))));
 export default BoxHistory;
+//# sourceMappingURL=index.js.map

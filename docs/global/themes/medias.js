@@ -7,3 +7,4 @@ export const medias = {
     "2k": "@media (min-width: 2560px)",
     "4k": "@media (min-width: 3840px)",
 };
+//# sourceMappingURL=medias.js.map

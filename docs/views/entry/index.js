@@ -61,3 +61,4 @@ export const Entry = () => {
             React.createElement(Input, { name: "entry", label: "N\u00FAmero da placa:", placeholder: "AAA-0000" }),
             React.createElement(Button, { label: "confirmar entrada", disabled: !(form.isValid && form.dirty) || form.isSubmitting }))));
 };
+//# sourceMappingURL=index.js.map

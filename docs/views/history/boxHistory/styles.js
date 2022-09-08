@@ -51,3 +51,4 @@ export const Divider = styled.span `
   flex-direction: column;
   gap: 2px;
 `;
+//# sourceMappingURL=styles.js.map

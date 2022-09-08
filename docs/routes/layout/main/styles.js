@@ -7,3 +7,4 @@ export const Container = styled.main `
   flex-direction: column;
   padding: 20px 0;
 `;
+//# sourceMappingURL=styles.js.map

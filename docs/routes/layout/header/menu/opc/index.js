@@ -14,3 +14,4 @@ export const Opc = ({ openMenu, routes }) => {
         href !== "/" &&
         href !== "/history" && (React.createElement(Link, { key: label, href: "/", onClick: (e) => onclick(e, href.replace("/", "")), id: href.replace("/", ""), className: href === "/entry" ? "open" : "" }, label)))));
 };
+//# sourceMappingURL=index.js.map

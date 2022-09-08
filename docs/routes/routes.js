@@ -21,3 +21,4 @@ export default [
         label: "Historico",
     },
 ];
+//# sourceMappingURL=routes.js.map

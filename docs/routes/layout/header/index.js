@@ -11,3 +11,4 @@ const Header = ({ routes, maxW, title }) => {
         React.createElement(Divider, null)));
 };
 export default Header;
+//# sourceMappingURL=index.js.map

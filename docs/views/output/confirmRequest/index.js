@@ -79,3 +79,4 @@ const ConfirmRequest = ({ payOrOut, buttonLabel, text, plate, setLoading, setLoa
             React.createElement("a", { href: "/" }, "Voltar"))));
 };
 export default ConfirmRequest;
+//# sourceMappingURL=index.js.map

@@ -20,3 +20,4 @@ export const entryPlate = (plate) => __awaiter(void 0, void 0, void 0, function*
         return error.response;
     }
 });
+//# sourceMappingURL=entry.js.map

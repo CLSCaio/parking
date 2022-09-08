@@ -13,3 +13,4 @@ export const weights = {
     bold: "600",
     black: "800",
 };
+//# sourceMappingURL=fonts.js.map

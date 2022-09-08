@@ -18,3 +18,4 @@ export const payParking = (plate) => __awaiter(void 0, void 0, void 0, function*
         return error;
     }
 });
+//# sourceMappingURL=payParking.js.map

@@ -6,3 +6,4 @@ export const Provider = ({ children }) => (React.createElement(ThemeProvider, { 
     React.createElement(React.Fragment, null,
         children,
         React.createElement(GlobalStyle, null))));
+//# sourceMappingURL=index.js.map

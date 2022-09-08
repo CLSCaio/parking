@@ -18,3 +18,4 @@ export const consultPlate = (plate) => __awaiter(void 0, void 0, void 0, functio
         return error;
     }
 });
+//# sourceMappingURL=consultPlate.js.map

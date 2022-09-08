@@ -19,3 +19,4 @@ export const colors = {
         5: "#0A261D",
     },
 };
+//# sourceMappingURL=colors.js.map

@@ -59,3 +59,4 @@ export const Output = () => {
             React.createElement(Button, { label: "Sa\u00EDda", color: colors.others[2], variant: "outline", onClick: () => setPayOrOut("out"), disabled: !(form.isValid && form.dirty) || form.isSubmitting || loading }),
             React.createElement("a", { href: "/history", onClick: (e) => navigateToHistory(e) }, "historico"))));
 };
+//# sourceMappingURL=index.js.map

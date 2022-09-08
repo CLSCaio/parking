@@ -50,3 +50,4 @@ export const History = () => {
                 plate.toUpperCase())),
         React.createElement(BoxHistory, { list: history })));
 };
+//# sourceMappingURL=index.js.map

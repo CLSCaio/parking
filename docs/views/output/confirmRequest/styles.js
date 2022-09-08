@@ -35,3 +35,4 @@ export const Group = styled.span `
   flex-direction: column;
   gap: 5px;
 `;
+//# sourceMappingURL=styles.js.map

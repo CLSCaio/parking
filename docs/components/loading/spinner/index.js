@@ -13,3 +13,4 @@ export const Spinner = () => (React.createElement(Container, null,
     React.createElement("div", null),
     React.createElement("div", null),
     React.createElement("div", null)));
+//# sourceMappingURL=index.js.map

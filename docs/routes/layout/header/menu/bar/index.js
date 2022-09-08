@@ -15,3 +15,4 @@ export const Bar = ({ menu, openMenu, title }) => {
             React.createElement(AvatarParking, null)),
         !menu ? (React.createElement(Bars, { onClick: () => openMenu(!menu) })) : (React.createElement(Close, { onClick: () => openMenu(!menu) }))));
 };
+//# sourceMappingURL=index.js.map

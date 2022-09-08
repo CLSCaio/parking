@@ -46,3 +46,4 @@ export const useMenuContext = () => {
     const { route, setRoute, plate, setPlate, changeView } = context;
     return { route, setRoute, plate, setPlate, changeView };
 };
+//# sourceMappingURL=index.js.map

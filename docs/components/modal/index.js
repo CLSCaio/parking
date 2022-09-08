@@ -18,3 +18,4 @@ export const Modal = (_a) => {
             !withoutClose && (React.createElement(CloseIcon, { size: 25, onClick: () => closeModal(false) })),
             children))) : null;
 };
+//# sourceMappingURL=index.js.map

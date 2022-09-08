@@ -36,3 +36,4 @@ export const Input = (_a) => {
         React.createElement(Field, Object.assign({}, rest, field, { errorStyle: errorStyle, type: "text", placeholder: placeholder, onBlur: handleBlur })),
         err && React.createElement(ErrorMessage, { error: error || meta.error })));
 };
+//# sourceMappingURL=index.js.map

@@ -50,3 +50,4 @@ export const CloseIcon = styled(AiOutlineClose) `
   top: 10px;
   right: 10px;
 `;
+//# sourceMappingURL=styles.js.map

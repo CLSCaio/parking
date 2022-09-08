@@ -67,3 +67,4 @@ export const GlobalStyle = createGlobalStyle `
     font-weight: ${weights.regular};
   }
 `;
+//# sourceMappingURL=index.js.map
