@@ -23,7 +23,7 @@ export const History = () => {
 
   const plateHistory = async () => {
     const { data } = await consultPlate(plate);
-    const reverseArray = data.reverse();
+    const reverseArray = data?.reverse();
     if (data !== undefined) setHistory(reverseArray);
     else setModal(true);
   };

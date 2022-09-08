@@ -38,6 +38,7 @@ export const Entry = () => {
         });
       }
     } finally {
+      form.setValues({ entry: "" });
       setLoading(false);
     }
   };

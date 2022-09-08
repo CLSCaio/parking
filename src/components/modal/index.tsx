@@ -9,14 +9,24 @@ export const Modal = ({
   children,
   withoutClose,
   ...rest
-}: ModalProps) =>
-  isVisible ? (
+}: ModalProps) => {
+  const onCancel = () => {
+    window.location.href = "/";
+    closeModal(false);
+  };
+
+  return isVisible ? (
     <Base {...rest}>
       <BackGround {...rest}>
         {!withoutClose && (
-          <CloseIcon size={25} onClick={() => closeModal(false)} />
+          <CloseIcon
+            style={{ cursor: "pointer" }}
+            size={25}
+            onClick={() => onCancel()}
+          />
         )}
         {children}
       </BackGround>
     </Base>
   ) : null;
+};

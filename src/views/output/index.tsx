@@ -32,12 +32,12 @@ export const Output = () => {
     setConfirm(true);
     if (payOrOut === "pay") {
       setMessages({
-        text: "Confima o pagamento da placa abaixo?",
+        text: `Confima o pagamento da placa abaixo?`,
         buttonLabel: "CONFIRMAR",
       });
     } else {
       setMessages({
-        text: "Confirma a saída do veiculo da placa abaixo?",
+        text: `Confirma a saída do veiculo da placa abaixo?`,
         buttonLabel: "Liberar Saída",
       });
     }

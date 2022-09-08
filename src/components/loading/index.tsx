@@ -17,6 +17,6 @@ export const Loading = ({ isLoading, text, type }: LoadingProps) => (
     ) : (
       <MdErrorOutline size={61} color={colors.error} />
     )}
-    <h4>{text}</h4>
+    <h4 dangerouslySetInnerHTML={{ __html: text }} />
   </Container>
 );

@@ -1,3 +1,4 @@
+import { FormikContextType } from "formik";
 import { ReactNode } from "react";
 
 export interface ModalProps extends ModalStyles {
