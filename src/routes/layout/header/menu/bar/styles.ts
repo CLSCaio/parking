@@ -13,6 +13,14 @@ export const Container = styled.div`
   gap: 5px;
 `;
 
+export const Button = styled.button`
+  background: transparent;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+`;
+
 export const Bars = styled(GoThreeBars)`
   display: flex;
   width: 36px;

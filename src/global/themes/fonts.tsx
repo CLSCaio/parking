@@ -5,7 +5,7 @@ export const sizes = {
   medium: "1.25rem",
   large: "1.5rem",
   xXlarge: "1.7rem",
-  huge: "1.85",
+  huge: "2.375rem",
 };
 
 export const weights = {

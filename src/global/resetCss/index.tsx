@@ -10,16 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    font-size: 11px;
-
-    ${medias.small} {
-      font-size: 13px;
-    }
-
-   ${medias.default} {
-      font-size: 16px;
-    }
-
+    font-size: 16px;
+  
    ${medias["fullHD+"]} {
       font-size: 19px;
     }
@@ -42,17 +34,22 @@ export const GlobalStyle = createGlobalStyle`
     background-color:  ${colors.primary};
   }
 
+  h1 {
+    font-size: ${sizes.huge};
+    font-weight: ${weights.regular};
+  }
+
   input {
     font-size: ${sizes.large};
     font-weight: ${weights.regular};
   }
 
-  a {
+  a, h2 {
     font-size: ${sizes.medium};
     font-weight: ${weights.bold};
   }
 
-  button, p, label {
+  button, p, label, h3 {
     font-size: ${sizes.default};
     font-weight: ${weights.regular};
   }

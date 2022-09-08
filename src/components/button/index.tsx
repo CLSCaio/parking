@@ -9,8 +9,10 @@ export const Button = ({
   label,
   variant,
   color,
+  onClick,
 }: ButtonProps) => (
   <Container
+    onClick={onClick}
     disabled={disabled || loading}
     type="submit"
     variant={variant}
