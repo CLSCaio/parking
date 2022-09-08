@@ -6,18 +6,14 @@ export const sizes = {
 };
 
 type width = "default" | "block";
-type types = "fixed" | "static";
 
 export interface HeaderProps {
   routes: Routes[];
   maxW?: width;
-  type?: types;
   title?: string;
 }
 
 export interface HeaderStyles {
   menu?: boolean;
   maxW?: width;
-  type?: types;
-  routes?: Routes[];
 }
