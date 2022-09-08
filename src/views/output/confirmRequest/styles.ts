@@ -14,7 +14,7 @@ export const Container = styled.form`
     text-align: center;
   }
 
-  h3 {
+  h4 {
     max-width: 170px;
   }
 

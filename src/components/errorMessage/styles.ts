@@ -8,7 +8,7 @@ export const ErrorContainer = styled.span`
   width: 100%;
   height: 32px;
 
-  background-color: rgba(${colors.bgErrorColor});
+  background-color: rgba(${colors.others[4]});
 
   color: ${colors.error};
 

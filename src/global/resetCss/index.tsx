@@ -39,23 +39,33 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: ${weights.regular};
   }
 
+  h2 {
+    font-size: ${sizes.large};
+    font-weight: ${weights.bold};
+  }
+
   input {
     font-size: ${sizes.large};
     font-weight: ${weights.regular};
   }
 
-  a, h2 {
+  a, h3 {
     font-size: ${sizes.medium};
     font-weight: ${weights.bold};
   }
 
-  button, p, label, h3 {
+  button, p, label, h4 {
     font-size: ${sizes.default};
     font-weight: ${weights.regular};
   }
 
-  h4 {
+  h5 {
     font-size: ${sizes.small};
     font-weight: ${weights.bold};
+  }
+
+  h6 {
+    font-size: ${sizes.xXsmall};
+    font-weight: ${weights.regular};
   }
 `;

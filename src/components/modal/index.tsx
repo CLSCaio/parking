@@ -7,12 +7,15 @@ export const Modal = ({
   isVisible,
   closeModal,
   children,
+  withoutClose,
   ...rest
 }: ModalProps) =>
   isVisible ? (
     <Base {...rest}>
       <BackGround {...rest}>
-        <CloseIcon size={25} onClick={() => closeModal(false)} />
+        {!withoutClose && (
+          <CloseIcon size={25} onClick={() => closeModal(false)} />
+        )}
         {children}
       </BackGround>
     </Base>

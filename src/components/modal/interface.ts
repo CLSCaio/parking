@@ -4,6 +4,7 @@ export interface ModalProps extends ModalStyles {
   isVisible: boolean;
   children: ReactNode;
   closeModal: React.Dispatch<React.SetStateAction<boolean>>;
+  withoutClose?: boolean;
 }
 
 export interface ModalStyles {

@@ -75,7 +75,7 @@ const ConfirmRequest = ({
     <FormikProvider value={form}>
       <Container onSubmit={form.handleSubmit}>
         <Group>
-          <h3> {text} </h3>
+          <h4> {text} </h4>
           <h1> {plate}</h1>
         </Group>
 

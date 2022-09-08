@@ -1,5 +1,5 @@
 export const sizes = {
-  xXsmall: "0.7rem",
+  xXsmall: "0.75rem",
   small: "0.85rem",
   default: "1rem",
   medium: "1.25rem",

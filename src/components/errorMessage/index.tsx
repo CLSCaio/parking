@@ -10,6 +10,6 @@ interface ErrorMessageProps {
 export const ErrorMessage = ({ error }: ErrorMessageProps) => (
   <ErrorContainer>
     <HiOutlineExclamationCircle />
-    <h4>{error || "Ocorreu um erro na solicitação!"}</h4>
+    <h5>{error || "Ocorreu um erro na solicitação!"}</h5>
   </ErrorContainer>
 );
