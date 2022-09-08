@@ -1,13 +1,7 @@
-// prettier-ignore
-
 {
   "exclude": [
-    "dist",
-    "./stories",
+    "docs",
     "node_modules",
-    "lib",
-    "src/stories",
-    "**/__stories__"
   ],
   "include": [
     "src/**/*",
@@ -28,7 +22,7 @@
     "lib": ["es6", "dom", "es2021"],                    /* Specify library files to be included in the compilation. */
     "jsx": "react",                           /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     "declaration": true,                       /* Generates corresponding '.d.ts' file. */
-    "sourceMap": false,                       /* Generates corresponding '.map' file. */
+    "sourceMap": true,                       /* Generates corresponding '.map' file. */
     "outDir": "./docs",                       /* Redirect output structure to the directory. */
     "rootDirs": ["./src"],       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     "strict": true,                           /* Enable all strict type-checking options. */
